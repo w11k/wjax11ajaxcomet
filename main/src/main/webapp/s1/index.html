@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>WJAX 2011</title>
+    <script src="/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var send = function() {
+            jQuery.post(
+                "/s1/servlet",
+                {
+                    dataType: "json",
+                    word: $("#word").val()
+                },
+                function(data) { $("#result").text(data); } );
+        };
+    </script>
+</head>
+<body>
+
+    <div>Input</div>
+    <input id="word" type="text" />
+    <a href="#" onclick="send()">Reverse</a>
+    <hr />
+    <div>Output</div>
+    <div id="result"></div>
+
+</body>
+</html>
