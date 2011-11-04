@@ -73,6 +73,8 @@ object Dependencies {
   def commonsCollections = "commons-collections" % "commons-collections" % "3.2.1" withSources()
 
   def jerichoHtml = "net.htmlparser.jericho" % "jericho-html" % "3.2" withSources()
+
+  def wicket = "org.apache.wicket" % "wicket-core" % "1.5.2"
 }
 
 object LeonBuild extends Build {
@@ -100,7 +102,8 @@ object LeonBuild extends Build {
     commonsBeanutils,
     commonsCollections,
     jerichoHtml,
-    h2database)
+    h2database,
+    wicket)
 
   lazy val parent = Project(
     "parent",

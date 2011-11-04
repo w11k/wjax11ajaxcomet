@@ -5,7 +5,7 @@
     <script type="text/javascript">
         var send = function() {
             jQuery.post(
-                "/s1/servlet",
+                "/plain/servlet",
                 {
                     dataType: "json",
                     word: $("#word").val()
@@ -19,7 +19,9 @@
     <div>Input</div>
     <input id="word" type="text" />
     <a href="#" onclick="send()">Reverse</a>
+
     <hr />
+
     <div>Output</div>
     <div id="result"></div>
 

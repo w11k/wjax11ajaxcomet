@@ -1,8 +1,8 @@
-package com.ww.wjax11.comet.s1
+package com.ww.wjax11.comet.plain
 
 import javax.servlet.http.{HttpServletResponse, HttpServletRequest, HttpServlet}
 
-class S1Servlet extends HttpServlet {
+class PlainServlet extends HttpServlet {
 
   override def doPost(req: HttpServletRequest, res: HttpServletResponse) {
     res.setContentType("application/json")
