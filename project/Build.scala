@@ -10,7 +10,7 @@ object BuildSettings {
 
   val buildSettings =
     Defaults.defaultSettings ++
-    Seq(scalacOptions ++= Seq("-unchecked", "-Xfatal-warnings")) ++
+    // Seq(scalacOptions ++= Seq("-unchecked", "-Xfatal-warnings")) ++
     Seq(
       organization := buildOrganization,
       version      := buildVersion,
@@ -75,6 +75,8 @@ object Dependencies {
   def jerichoHtml = "net.htmlparser.jericho" % "jericho-html" % "3.2" withSources()
 
   def wicket = "org.apache.wicket" % "wicket-core" % "1.5.2"
+  
+  def lift = "net.liftweb" %% "lift-webkit"% "2.4-M4" withSources()
 }
 
 object LeonBuild extends Build {
@@ -103,7 +105,8 @@ object LeonBuild extends Build {
     commonsCollections,
     jerichoHtml,
     h2database,
-    wicket)
+    wicket,
+    lift)
 
   lazy val parent = Project(
     "parent",
