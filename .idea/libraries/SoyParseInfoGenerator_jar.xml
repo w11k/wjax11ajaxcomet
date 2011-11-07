@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SoyParseInfoGenerator.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/lib/SoyParseInfoGenerator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

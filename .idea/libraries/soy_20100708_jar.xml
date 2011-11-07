@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="soy-20100708.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/lib/soy-20100708.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

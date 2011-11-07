@@ -1,11 +1,13 @@
 package com.ww.wjax11.comet
 
+import atmosphere.{CometAtmosphereServlet, CometHandler}
 import com.google.inject.servlet.ServletModule
 import plain.PlainServlet
 import org.apache.wicket.protocol.http.WicketFilter
 import wicket.WicketApplication
 import net.liftweb.http.LiftFilter
 import lift.Boot
+import org.atmosphere.cpr.AtmosphereServlet
 
 class Module extends ServletModule {
 
@@ -26,7 +28,15 @@ class Module extends ServletModule {
     filter("/wicket/*").through(classOf[WicketFilter], wicketInitParams.asJava)
     
     bind(classOf[LiftFilter]).asEagerSingleton()
-    filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)    
+    filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)
+
+    val meteorParams = Map(
+      "org.atmosphere.servlet" -> classOf[CometHandler].getName,
+      AtmosphereServlet.WEBSOCKET_SUPPORT -> "false",
+      AtmosphereServlet.PROPERTY_NATIVE_COMETSUPPORT -> "true"
+      ).asJava
+    bind(classOf[CometAtmosphereServlet]).asEagerSingleton()
+    serve("/cometAtmosphereServlet*").`with`(classOf[CometAtmosphereServlet], meteorParams)
   }
 
 }

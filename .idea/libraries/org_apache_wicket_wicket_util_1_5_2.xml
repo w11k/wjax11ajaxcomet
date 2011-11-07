@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.apache.wicket_wicket-util_1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.wicket/wicket-util/jars/wicket-util-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.wicket/wicket-util/docs/wicket-util-1.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.wicket/wicket-util/srcs/wicket-util-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

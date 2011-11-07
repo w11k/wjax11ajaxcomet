@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.atmosphere_atmosphere-compat-jbossweb_0.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-compat-jbossweb/bundles/atmosphere-compat-jbossweb-0.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-compat-jbossweb/docs/atmosphere-compat-jbossweb-0.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-compat-jbossweb/srcs/atmosphere-compat-jbossweb-0.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

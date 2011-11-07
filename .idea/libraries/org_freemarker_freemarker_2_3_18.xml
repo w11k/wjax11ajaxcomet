@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.freemarker_freemarker_2.3.18">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.freemarker/freemarker/jars/freemarker-2.3.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.freemarker/freemarker/srcs/freemarker-2.3.18-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.freemarker/freemarker/srcs/freemarker-2.3.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

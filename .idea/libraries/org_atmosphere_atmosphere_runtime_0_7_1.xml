@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.atmosphere_atmosphere-runtime_0.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-runtime/jars/atmosphere-runtime-0.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-runtime/docs/atmosphere-runtime-0.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-runtime/srcs/atmosphere-runtime-0.7.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.atmosphere/atmosphere-runtime/srcs/atmosphere-runtime-0.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

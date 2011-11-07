@@ -7,7 +7,7 @@ import org.apache.wicket.model.Model
 import org.apache.wicket.markup.html.form.{Form, TextField}
 import org.apache.wicket.ajax.markup.html.form.AjaxButton
 
-class WicketPage extends WebPage {
+class WicketAjaxPage extends WebPage {
 
   private val form = new Form("form")
   add(form)
@@ -20,6 +20,7 @@ class WicketPage extends WebPage {
     def onSubmit(target: AjaxRequestTarget, form: Form[_]) {
       resultContent.setObject(wordInput.getModelObject.reverse)
       target.add(result)
+      println("MARKUP ID:" + this.getMarkupId)
     }
     def onError(target: AjaxRequestTarget, form: Form[_]) {}
   })

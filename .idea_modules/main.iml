@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../main/target/scala-2.9.1/classes" />
+    <output-test url="file://$MODULE_DIR$/../main/target/scala-2.9.1/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../main">
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../main/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../main/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.1" level="project" />
+    <orderEntry type="library" name="ch.qos.logback_logback-classic_0.9.24" level="project" />
+    <orderEntry type="library" name="ch.qos.logback_logback-core_0.9.24" level="project" />
+    <orderEntry type="library" name="org.freemarker_freemarker_2.3.18" level="project" />
+    <orderEntry type="library" name="rhino_js_1.7R2" level="project" />
+    <orderEntry type="library" name="org.atmosphere_atmosphere-runtime_0.7.1" level="project" />
+    <orderEntry type="library" name="org.atmosphere_atmosphere-ping_0.7.1" level="project" />
+    <orderEntry type="library" name="org.slf4j_slf4j-api_1.6.1" level="project" />
+    <orderEntry type="library" name="org.atmosphere_atmosphere-compat-jbossweb_0.7.1" level="project" />
+    <orderEntry type="library" name="org.atmosphere_atmosphere-compat-tomcat_0.7.1" level="project" />
+    <orderEntry type="library" name="org.atmosphere_atmosphere-compat-weblogic_0.7.1" level="project" />
+    <orderEntry type="library" name="com.google.inject_guice_3.0" level="project" />
+    <orderEntry type="library" name="javax.inject_javax.inject_1" level="project" />
+    <orderEntry type="library" name="aopalliance_aopalliance_1.0" level="project" />
+    <orderEntry type="library" name="org.sonatype.sisu.inject_cglib_2.2.1-v20090111" level="project" />
+    <orderEntry type="library" name="asm_asm_3.1" level="project" />
+    <orderEntry type="library" name="com.google.inject.extensions_guice-servlet_3.0" level="project" />
+    <orderEntry type="library" name="net.debasishg_sjson_2.9.1_0.15" level="project" />
+    <orderEntry type="library" name="net.databinder_dispatch-json_2.9.1_0.8.5" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents_httpclient_4.1" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents_httpcore_4.1" level="project" />
+    <orderEntry type="library" name="commons-logging_commons-logging_1.1.1" level="project" />
+    <orderEntry type="library" name="commons-codec_commons-codec_1.4" level="project" />
+    <orderEntry type="library" name="org.objenesis_objenesis_1.2" level="project" />
+    <orderEntry type="library" name="commons-io_commons-io_1.4" level="project" />
+    <orderEntry type="library" name="org.yaml_snakeyaml_1.8" level="project" />
+    <orderEntry type="library" name="com.mongodb.casbah_casbah-core_2.9.1_2.1.5-1" level="project" />
+    <orderEntry type="library" name="com.mongodb.casbah_casbah-commons_2.9.1_2.1.5-1" level="project" />
+    <orderEntry type="library" name="org.scala-tools.time_time_2.9.1_0.5" level="project" />
+    <orderEntry type="library" name="joda-time_joda-time_1.6.2" level="project" />
+    <orderEntry type="library" name="org.mongodb_mongo-java-driver_2.5.3" level="project" />
+    <orderEntry type="library" name="org.scalaj_scalaj-collection_2.9.1_1.2" level="project" />
+    <orderEntry type="library" name="com.mongodb.casbah_casbah-query_2.9.1_2.1.5-1" level="project" />
+    <orderEntry type="library" name="commons-beanutils_commons-beanutils_1.8.3" level="project" />
+    <orderEntry type="library" name="commons-collections_commons-collections_3.2.1" level="project" />
+    <orderEntry type="library" name="net.htmlparser.jericho_jericho-html_3.2" level="project" />
+    <orderEntry type="library" name="org.apache.wicket_wicket-core_1.5.2" level="project" />
+    <orderEntry type="library" name="org.apache.wicket_wicket-util_1.5.2" level="project" />
+    <orderEntry type="library" name="org.apache.wicket_wicket-request_1.5.2" level="project" />
+    <orderEntry type="library" name="net.liftweb_lift-webkit_2.9.1_2.4-M4" level="project" />
+    <orderEntry type="library" name="commons-fileupload_commons-fileupload_1.2.2" level="project" />
+    <orderEntry type="library" name="net.liftweb_lift-util_2.9.1_2.4-M4" level="project" />
+    <orderEntry type="library" name="nu.validator.htmlparser_htmlparser_1.2.1" level="project" />
+    <orderEntry type="library" name="javax.mail_mail_1.4.4" level="project" />
+    <orderEntry type="library" name="javax.activation_activation_1.1" level="project" />
+    <orderEntry type="library" name="net.liftweb_lift-actor_2.9.1_2.4-M4" level="project" />
+    <orderEntry type="library" name="net.liftweb_lift-common_2.9.1_2.4-M4" level="project" />
+    <orderEntry type="library" name="net.liftweb_lift-json_2.9.1_2.4-M4" level="project" />
+    <orderEntry type="library" name="com.thoughtworks.paranamer_paranamer_2.3" level="project" />
+    <orderEntry type="library" name="org.scala-lang_scalap_2.9.1" level="project" />
+    <orderEntry type="library" name="org.scala-lang_scala-compiler_2.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.specs2_specs2_2.9.1_1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.specs2_specs2-scalaz-core_2.9.1_6.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="com.h2database_h2_1.3.155" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="org.mortbay.jetty_servlet-api_2.5-20081211" level="project" />
+  </component>
+</module>
+

@@ -4,6 +4,6 @@ import org.apache.wicket.protocol.http.WebApplication
 
 class WicketApplication extends WebApplication {
 
-    override def getHomePage = classOf[WicketPage]
+    override def getHomePage = classOf[WicketAjaxPage]
 
 }
