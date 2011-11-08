@@ -2,18 +2,16 @@
 <head>
     <title>WJAX 2011</title>
     <script src="/jquery.js" type="text/javascript"></script>
-    <script src='/dwr/interface/DwrChatServer.js'></script>
+    <script src='/dwr/interface/DwrCometChatServer.js'></script>
     <script src='/dwr/engine.js'></script>
+    <script src='/dwr/util.js'></script>
     <script src="/jquery.js" type="text/javascript"></script>
 
     <script type="text/javascript">
+        dwr.engine.setActiveReverseAjax(true);
+
         var send = function() {
-            DwrChatServer.chat($("#word").val(),
-                {
-                    callback:function(data) {
-                        $("#result").text(data);
-                    }
-                });
+            DwrCometChatServer.update($("#word").val());
         }
     </script>
 
@@ -23,12 +21,19 @@
 
 <div>Input</div>
 <input id="word" type="text"/>
-<a href="#" onclick="send()">Ajax</a>
+<a href="#" onclick="send()">Comet</a>
 
 <hr/>
 
 <div>Output</div>
-<div id="result"></div>
-
+<table>
+    <tbody id="messageTable">
+        <tr>
+        <td width="30%"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
 </body>
 </html>

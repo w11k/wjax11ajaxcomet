@@ -29,7 +29,7 @@ class Module extends ServletModule {
     filter("/wicket/*").through(classOf[WicketFilter], wicketInitParams.asJava)
     
     bind(classOf[LiftFilter]).asEagerSingleton()
-    filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)
+    // filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)
 
     val meteorParams = Map(
       "org.atmosphere.servlet" -> classOf[CometHandler].getName,

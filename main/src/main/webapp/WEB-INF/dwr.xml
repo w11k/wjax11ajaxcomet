@@ -7,5 +7,8 @@
     <create creator="new" javascript="DwrChatServer">
       <param name="class" value="com.ww.wjax11.ajax.dwr.ChatServer"/>
     </create>
+    <create creator="new" javascript="DwrCometChatServer">
+      <param name="class" value="com.ww.wjax11.comet.dwr.DwrCometChatServer"/>
+    </create>
   </allow>
 </dwr>

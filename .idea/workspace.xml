@@ -15,25 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="005f0f8d-bd08-40b3-b826-e1c1a8e84180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/buildScala.xml" afterPath="$PROJECT_DIR$/.idea/libraries/buildScala.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_paranamer_paranamer_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_commons_logging_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_activation_activation_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail_mail_1_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_mail_1_4_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_actor_2_9_1_2_4_M4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_actor_2_9_1_2_4_M4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_common_2_9_1_2_4_M4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_common_2_9_1_2_4_M4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_json_2_9_1_2_4_M4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_json_2_9_1_2_4_M4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nu_validator_htmlparser_htmlparser_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nu_validator_htmlparser_htmlparser_1_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scalap_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scalap_2_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/main.iml" afterPath="$PROJECT_DIR$/.idea_modules/main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/project.iml" afterPath="$PROJECT_DIR$/.idea_modules/project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" afterPath="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" afterPath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/main/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" afterPath="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" />
     </list>
     <ignored path="sjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,15 +85,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ajax.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/main/webapp/plain/ajax.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="57" selection-start="383" selection-end="407" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="42" selection-start="448" selection-end="448" vertical-scroll-proportion="-7.5">
@@ -116,19 +93,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comet.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="comet.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.43837357">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comet.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/src/main/webapp/lift/comet.html">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.4275093">
+            <state line="61" column="12" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DwrCometChatServer.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/DwrCometChatServer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="14" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.directwebremoting/dwr/srcs/dwr-2.0.3-sources.jar!/org/directwebremoting/proxy/dwr/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="43" selection-start="6630" selection-end="6630" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Filter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,16 +141,25 @@
       <file leaf-file-name="Module.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="6" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+            <state line="38" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/main/webapp/index.html">
+      <file leaf-file-name="dwr.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="74" selection-start="400" selection-end="400" vertical-scroll-proportion="-5.625">
+            <state line="10" column="75" selection-start="392" selection-end="410" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatServer.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/ajax/dwr/ChatServer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/src/main/resources/default.logback.xml" />
-        <option value="$PROJECT_DIR$/main/src/main/resources/com/ww/wjax11/comet/atmosphere/comet.js" />
-        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/atmosphere/CometAtmosphereServlet.scala" />
-        <option value="$PROJECT_DIR$/main/src/main/webapp/comet.js" />
-        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/wicket/WicketPage.scala" />
         <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/wicket/WicketAjaxPage.scala" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/atmosphere/comet.html" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/dwr/ajax.html" />
-        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
-        <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/project/Build.scala" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" />
         <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/ajax/dwr/ChatServer.scala" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/plain/ajax.html" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/dwrexample/ajax.html" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/WebContext.java" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/ChatService.java" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/ChatService.scala" />
+        <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/DwrCometChatServer.scala" />
+        <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
+        <option value="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" />
       </list>
     </option>
   </component>
@@ -290,6 +303,50 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wjax11ajaxcomet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.directwebremoting_dwr_2.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dwr-2.0.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.directwebremoting_dwr_2.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dwr-2.0.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dwr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -400,6 +457,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lift" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -457,6 +544,130 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dwr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atmosphere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CometAtmosphereServlet.scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjax11ajaxcomet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dwr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +830,9 @@
       <recent name="$PROJECT_DIR$/main/src/main/webapp/dwr" />
       <recent name="$PROJECT_DIR$/main/src/main/webapp/atmosphere" />
       <recent name="$PROJECT_DIR$/main/src/main/webapp/s1" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ww.wjax11.comet.dwr" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ww.wjax11.comet.s1" />
@@ -983,21 +1197,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/wicket/WicketApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="97" selection-end="97" vertical-scroll-proportion="0.078341015" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/lift/comet/chat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="392" selection-end="392" vertical-scroll-proportion="0.351418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/atmosphere/comet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="443" selection-end="443" vertical-scroll-proportion="-8.75" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/atmosphere/CometAtmosphereServlet.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" />
@@ -1013,20 +1212,6 @@
         <state line="9" column="12" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="6" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="74" selection-start="400" selection-end="400" vertical-scroll-proportion="-5.625">
@@ -1034,25 +1219,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="142" selection-end="142" vertical-scroll-proportion="0.1109741">
-          <folding>
-            <marker date="1320743721000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Build.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="53" selection-start="2939" selection-end="2939" vertical-scroll-proportion="0.018050542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/ajax/dwr/ChatServer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="116" selection-end="116" vertical-scroll-proportion="0.090252705">
           <folding />
         </state>
       </provider>
@@ -1071,16 +1240,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html">
+    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="61" column="12" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="75" selection-start="392" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/ajax/dwr/ChatServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Filter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/DwrCometChatServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.directwebremoting/dwr/srcs/dwr-2.0.3-sources.jar!/org/directwebremoting/proxy/dwr/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="43" selection-start="6630" selection-end="6630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/lift/comet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.4275093">
+        <state line="5" column="71" selection-start="30" selection-end="132" vertical-scroll-proportion="0.0952986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.43837357">
           <folding />
         </state>
       </provider>
