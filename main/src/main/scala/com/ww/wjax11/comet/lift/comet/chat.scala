@@ -5,26 +5,26 @@ import net.liftweb.http._
 
 class Chat extends CometActor with CometListener {
 
-  private var msgs = Vector.empty[String]
+  private var messages = List.empty[String]
 
   def registerWith = ChatServer
 
   override def lowPriority = {
-    case v: Vector[String] => msgs = v; reRender()
+    case v: List[String] => messages = v; reRender()
   }
 
-  def render = "#messages *" #> msgs.map(msg => <li>{msg}</li>)
+  def render = "#messages *" #> messages.map(msg => <li>{msg}</li>)
 }
 
 
 object ChatServer extends LiftActor with ListenerManager {
 
-  private var msgs = Vector.empty[String]
+  private var messages = List.empty[String]
 
-  def createUpdate = msgs
+  def createUpdate = messages
 
   override def lowPriority = {
-    case s: String => msgs :+= s; updateListeners()
+    case s: String => messages :+= s; updateListeners()
   }
 }
 
