@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/project/boot/scala-2.9.0-1/lib/scala-compiler.jar!/" />
       <root url="jar://$PROJECT_DIR$/project/boot/scala-2.9.0-1/lib/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dwr-2.0.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

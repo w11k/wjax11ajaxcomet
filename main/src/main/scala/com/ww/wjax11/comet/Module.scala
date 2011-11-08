@@ -8,6 +8,7 @@ import wicket.WicketApplication
 import net.liftweb.http.LiftFilter
 import lift.Boot
 import org.atmosphere.cpr.AtmosphereServlet
+import org.directwebremoting.servlet.DwrServlet
 
 class Module extends ServletModule {
 
@@ -37,6 +38,16 @@ class Module extends ServletModule {
       ).asJava
     bind(classOf[CometAtmosphereServlet]).asEagerSingleton()
     serve("/cometAtmosphereServlet*").`with`(classOf[CometAtmosphereServlet], meteorParams)
+
+    val dwrInitParams = Map(
+      "debug" -> false
+    )
+
+    //bind(classOf[DwrServlet]).asEagerSingleton()
+    //serve("/dwr/**").`with`(classOf[DwrServlet])
+
+    //filter("/dwr/*").through(classOf[DwrServlet], dwrInitParams.asJava)
+
   }
 
 }

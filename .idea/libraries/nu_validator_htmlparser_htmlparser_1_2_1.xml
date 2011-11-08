@@ -6,6 +6,8 @@
     <JAVADOC>
       <root url="jar://$USER_HOME$/.ivy2/cache/nu.validator.htmlparser/htmlparser/docs/htmlparser-1.2.1-javadoc.jar!/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/nu.validator.htmlparser/htmlparser/srcs/htmlparser-1.2.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

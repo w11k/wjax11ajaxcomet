@@ -74,6 +74,7 @@
     <orderEntry type="library" name="com.thoughtworks.paranamer_paranamer_2.3" level="project" />
     <orderEntry type="library" name="org.scala-lang_scalap_2.9.1" level="project" />
     <orderEntry type="library" name="org.scala-lang_scala-compiler_2.9.1" level="project" />
+    <orderEntry type="library" name="org.directwebremoting_dwr_2.0.3" level="project" />
     <orderEntry type="library" scope="TEST" name="org.specs2_specs2_2.9.1_1.6.1" level="project" />
     <orderEntry type="library" scope="TEST" name="org.specs2_specs2-scalaz-core_2.9.1_6.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.h2database_h2_1.3.155" level="project" />

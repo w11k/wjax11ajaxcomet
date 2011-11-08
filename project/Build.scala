@@ -29,6 +29,8 @@ object BuildSettings {
     publishTo := Some(Resolver.file("Local Test Repository", Path fileProperty "java.io.tmpdir" asFile)),
     credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
   )
+
+
 }
 
 object Dependencies {
@@ -72,10 +74,14 @@ object Dependencies {
 
   def commonsCollections = "commons-collections" % "commons-collections" % "3.2.1" withSources()
 
+  def commonsLogging = "commons-logging" % "commons-logging" % "1.1.1" withSources()
+
   def jerichoHtml = "net.htmlparser.jericho" % "jericho-html" % "3.2" withSources()
 
   def wicket = "org.apache.wicket" % "wicket-core" % "1.5.2"
-  
+
+  def dwr = "org.directwebremoting" % "dwr" % "3.0.M1"
+
   def lift = "net.liftweb" %% "lift-webkit"% "2.4-M4" withSources()
 }
 
@@ -103,10 +109,12 @@ object LeonBuild extends Build {
     casbah_core,
     commonsBeanutils,
     commonsCollections,
+	commonsLogging,
     jerichoHtml,
     h2database,
     wicket,
-    lift)
+    lift,
+  dwr)
 
   lazy val parent = Project(
     "parent",
