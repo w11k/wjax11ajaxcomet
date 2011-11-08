@@ -29,7 +29,7 @@ class Module extends ServletModule {
     filter("/wicket/*").through(classOf[WicketFilter], wicketInitParams.asJava)
     
     bind(classOf[LiftFilter]).asEagerSingleton()
-    // filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)
+    filter("/*").through(classOf[LiftFilter], liftInitParams.asJava)
 
     val meteorParams = Map(
       "org.atmosphere.servlet" -> classOf[CometHandler].getName,
@@ -38,15 +38,6 @@ class Module extends ServletModule {
       ).asJava
     bind(classOf[CometAtmosphereServlet]).asEagerSingleton()
     serve("/cometAtmosphereServlet*").`with`(classOf[CometAtmosphereServlet], meteorParams)
-
-    val dwrInitParams = Map(
-      "debug" -> false
-    )
-
-    //bind(classOf[DwrServlet]).asEagerSingleton()
-    //serve("/dwr/**").`with`(classOf[DwrServlet])
-
-    //filter("/dwr/*").through(classOf[DwrServlet], dwrInitParams.asJava)
 
   }
 

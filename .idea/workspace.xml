@@ -15,11 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="005f0f8d-bd08-40b3-b826-e1c1a8e84180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" afterPath="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" afterPath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" afterPath="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" />
     </list>
     <ignored path="sjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comet.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comet.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.43837357">
+            <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -138,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Module.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.7398274">
               <folding />
             </state>
           </provider>
@@ -193,8 +189,8 @@
         <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/dwr.xml" />
         <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/dwr/DwrCometChatServer.scala" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html" />
+        <option value="$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala" />
       </list>
     </option>
   </component>
@@ -1282,13 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/lift/comet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="71" selection-start="30" selection-end="132" vertical-scroll-proportion="0.0952986">
@@ -1298,7 +1287,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/dwrexample/comet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.43837357">
+        <state line="23" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/scala/com/ww/wjax11/comet/Module.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.7398274">
           <folding />
         </state>
       </provider>
